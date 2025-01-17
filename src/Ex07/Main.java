@@ -46,6 +46,10 @@ public class Main {
             int price = employee.getSalary() + material.getCost();
             System.out.println("製品名: " + material.getName() + "メダル / 価格: " + material.getCost + "円");
         }
+
+        for(Material material:materials){ //メダルを作成するループを開始
+            String makeMedal="";
+            
     
         }
         
