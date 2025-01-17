@@ -1,10 +1,8 @@
 package Sample;
 
-public class Manager extends Employee{    public static void main(String[] args) {
+public class Manager extends Employee{  
         
         private String department;
-
-        public String depatment;
 
         public String getDepartment(){
             return department;
@@ -18,4 +16,4 @@ public class Manager extends Employee{    public static void main(String[] args)
     }
 
 
-}
+

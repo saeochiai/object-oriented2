@@ -17,12 +17,12 @@ public class Employee {
     public void setId(int id) {
         this.id = id;
     }
-    public doble getSalary() {
+    public double getSalary() {
         return salary;
     }
-    public void setSalary(doble salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
-    private doble salary;
+    private double salary;
 
 }

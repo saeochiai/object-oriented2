@@ -1,8 +1,12 @@
+package Sample;
 private class TV {
 
     private int channel;
 
 
+    public TV() {
+        //TODO Auto-generated constructor stub
+    }
     public void changeChannel(int channel){
         if(channel <= 0 || 13 <=channel ){
             System.out.println("チャンネルは1~12までの間で設定してください");

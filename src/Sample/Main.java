@@ -22,7 +22,7 @@ public class Main {
     for(Manager manager: managers){
         System.out.println("Name"+manager.getName());
         System.out.println("ID:"+manager.getId());
-        System.out.println("Salary:"+manager.getSalary);
+        System.out.println("Salary:"+manager.getSalary());
         System.out.println("Department:"+manager.getDepartment());
         System.out.println();
 
