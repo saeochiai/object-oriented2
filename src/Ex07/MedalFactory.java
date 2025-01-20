@@ -8,34 +8,26 @@ public class MedalFactory {
         this.employees = employees;
     }
 
-    int totalSalary = 0;
+    private int totalSalary = 0;
 
     for (Employee employee:employees){
         totalSalary = totalSalary+employee.getSalary();
     }
     
-
-    //製品を格納する配列の宣言
-    //Medal[] medals = new Medal[4];
-
-   // medals[0] = new Medal;
-   // medals[0].
-
     public void makeMedal(Material[] materials){
+        String medalName = "";
+        int price = 0;
 
-        for(Material material:materials){
-         String makeMedal="";
-        if 
+        if (material.getName().equals("金")){
+            medalName = "金メダル";
+            price = price+(getSalary/10)*1.2;
+        }
          }
     }
 
-
-   }
-
-    
     //Material10個に対して、10個の商品(メダル)が出来上がる
 
-    //return medals;
+    return medals;
 
     // public void makeMedal(materials){
         
