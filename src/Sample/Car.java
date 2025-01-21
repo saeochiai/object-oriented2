@@ -6,8 +6,18 @@ public class Car {
     public String setSpeed;
     public String setName;
 
+
+    // @Override
+    // public String toString() {
+    //     // TODO Auto-generated method stub
+    //     return "スピード"+speed+"km";
+    // }
     Car(){
 
+    }
+    @Override
+    public String toString() {
+        return "Car [speed=" + speed + ", name=" + name + ", setSpeed=" + setSpeed + ", setName=" + setName + "]";
     }
     Car(int speed, String name){
         this.speed= speed;
@@ -35,6 +45,10 @@ public class Car {
     }
     public void setName(String name) {
         this.name = name;
+    }
+    public void setBodyColor(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setBodyColor'");
     }
 
 
